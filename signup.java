@@ -72,7 +72,7 @@ public class signup extends HttpServlet {
 
                     pstmt.executeUpdate();
 
-                    out.println("done..");
+                    out.println("<h1>sign Up Successfuly</h1>");
 
                     pstmt.close();
 
